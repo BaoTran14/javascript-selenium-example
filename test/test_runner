@@ -1,0 +1,10 @@
+const Environment = require("../environment_config/environment");
+const { example, example1 } = require("./google_home_test");
+const environment = new Environment();
+
+async function google_home_test() {
+    // example();
+    // example1();
+    // environment.set_up();
+}
+google_home_test()

@@ -1,0 +1,37 @@
+{
+  "name": "javascriptseleniumsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_parallel": "mocha --timeout 100000 --parallel --spec ./test/*.js --reporter mochawesome",
+    "test": "mocha --timeout 100000 --spec ./test/google_home_test_1.js --reporter mochawesome"
+  },
+  "keywords": [
+    "mocha",
+    "bdd",
+    "selenium",
+    "examples",
+    "test",
+    "bdd",
+    "tdd",
+    "tap",
+    "framework"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^91.0.1",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^2.0.0",
+    "ms-chromium-edge-driver": "^0.4.3",
+    "selenium-webdriver": "^3.6.0",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
